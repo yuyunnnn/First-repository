@@ -1,0 +1,54 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+@font-face {
+    font-family: 'AbelRegular';
+    src: url('/fonts/abel-regular-webfont.eot');
+    src: url('/fonts/abel-regular-webfont.eot?#iefix') format('embedded-opentype'),  url('/fonts/abel-regular-webfont.woff') format('woff'),  url('/fonts/abel-regular-webfont.ttf') format('truetype'),  url('/fonts/abel-regular-webfont.svg#AbelRegular') format('svg');
+    }
+div.main{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+header img{
+    width: 200px;
+}
+nav ul{
+    list-style-type: none;
+    border-top: 1px solid #8a8000;
+    border-bottom: 1px solid #8a8000;
+    display: flex;
+    height: 80px;
+    line-height: 80px;
+    font-size: 28px;
+    font-family: 'AbelRegular',sans-serif ;
+    /* font-family: 'Noto Sans TC', sans-serif; */
+}
+nav>ul>li{
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+}
+nav>ul>li>a{
+    text-decoration: none;
+}
+nav>ul>li>a>span:first-child{
+    font-weight: bold;
+    color: black;
+}
+nav>ul>li>a>span:last-child{
+    font-weight: bold;
+    color: #8a8000;
+}
